@@ -34,7 +34,5 @@
 .vs
 Build
 
-!ThirdParty/libs/Debug/*
-!ThirdParty/libs/Release/*
-
-!ds.rcnet
+!ThirdParty/libs/x64/Debug/*
+!ThirdParty/libs/x64/Release/*
