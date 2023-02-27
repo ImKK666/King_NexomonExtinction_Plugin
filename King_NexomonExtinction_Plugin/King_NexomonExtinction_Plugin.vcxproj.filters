@@ -41,5 +41,8 @@
     <ClInclude Include="King_il2cpp\include\il2cpp_types.h">
       <Filter>King_il2cpp\include</Filter>
     </ClInclude>
+    <ClInclude Include="nvdaController.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

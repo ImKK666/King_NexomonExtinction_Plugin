@@ -100,7 +100,7 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>detours.lib;nvdaControllerClient64.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>detours.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
       <Command>copy /y $(SolutionDir)Build\bin\$(Configuration)\version.dll G:\Games\Nexomon.Extinction.v1.1.2\</Command>
@@ -114,6 +114,7 @@
     <ClInclude Include="King_il2cpp\include\il2cpp_api.h" />
     <ClInclude Include="King_il2cpp\include\il2cpp_types.h" />
     <ClInclude Include="King_il2cpp\King_il2cpp.hpp" />
+    <ClInclude Include="nvdaController.hpp" />
     <ClInclude Include="VersionHijack.hpp" />
   </ItemGroup>
   <ItemGroup>
